@@ -1,0 +1,19 @@
+
+/* Start of counter logic */
+main {
+    counter-reset: heuristic;
+}
+
+.heuristic {
+    counter-increment: heuristic;
+}
+
+.number::after {
+    content: "0" counter(heuristic);
+}
+
+.last-number::after {
+    content: counter(heuristic);
+}
+
+/* End of counter logic */
