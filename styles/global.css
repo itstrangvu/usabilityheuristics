@@ -86,3 +86,29 @@ header p {
     line-height: 1.4;
 }
 /* End of font sizes */
+
+
+/* Tablet */
+@media screen and (min-width: 481px) {
+    
+}
+
+/* Small screens */
+@media screen and (min-width: 769px) {
+    
+} 
+
+/* Laptops */
+@media screen and (min-width: 1025px) {
+    
+} 
+
+/* Desktops */
+@media screen and (min-width: 1201px) {
+    
+} 
+
+/* Extra large screens */
+@media screen and (min-width: 1401px) {
+    
+} 
